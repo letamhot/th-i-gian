@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    margin: 200px;
+    padding: 100px;
+    background: blueviolet;
+}
+.login {
+    height:200px;
+    width:300px;
+    margin:0;
+    border:1px #CCC solid;
+    padding:10px;
+    text-align: center;
+    background: red;
+}
+.login input {
+    padding:5px;
+    margin:5px
+}

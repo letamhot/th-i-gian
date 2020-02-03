@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.thumbnail{
+    height: 60px;
+    width: 100px;
+    overflow: hidden;
+}
+.thumbnail img{
+    width:100%;
+}
