@@ -8,17 +8,16 @@
 <body>
     <div id="content">
         <h1>Future Value Calculator</h1>
-        
+
         <form action="display_result.php" method="POST">
             <div id="data">
                 <label>Investment Amount:</label>
-                <input type="text" name="investment" value="0"/><br/>
-
+                <input type="text" name="investment" />
                 <label>Yearly Interest Rate:</label>
-                <input type="text" name="rate" value="0"/><br/>
+                <input type="text" name="rate" /><br/>
 
                 <label>Number of Years:</label>
-                <input type="text" name="years" value="0"/>
+                <input type="text" name="years" />
             </div>
             <div id="buttons">
                 <label>&nbsp;</label>

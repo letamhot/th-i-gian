@@ -8,12 +8,13 @@
     <title>Đọc số thành chữ</title>
 </head>
 <body>
-    <h1>Đọc số thành chữ</h1>
-    <input type="text" id="number" value="0" placeholder="Nhập số"/>
-    <input type="submit" id="submit" value="Tìm"/>
-    <br>
+<form action="" method='POST'>
+        <h2>Đọc số thành chữ</h2>
+        <input type="text" placeholder='enter a number' name='number'>
+        <input type="submit" value="Read" id='submit'>
+    </form>
     <?php
-    require "index.view.php";
-    ?>
+   require "index.view.php";
+   ?>  
 </body>
 </html>
